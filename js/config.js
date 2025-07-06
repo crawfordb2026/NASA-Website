@@ -1,6 +1,5 @@
 // NASA API Configuration
-// Using NASA's demo API key for public deployment
-// For personal use, replace with your own API key from https://api.nasa.gov/
+// This will be replaced by GitHub Actions with the actual API key from secrets
 const NASA_API_KEY = 'DEMO_KEY';
 const NASA_APOD_BASE_URL = 'https://api.nasa.gov/planetary/apod';
 
