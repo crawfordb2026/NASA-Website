@@ -30,7 +30,7 @@ An interactive web application that allows users to explore NASA's Astronomy Pic
    cp js/config.template.js js/config.js
    ```
 
-2. Edit `js/config.js` and replace `'YOUR_API_KEY_HERE'` with your actual NASA API key:
+2. Edit `js/config.js` and replace `'DEMO_KEY'` with your actual NASA API key:
    ```javascript
    const NASA_API_KEY = 'your_actual_api_key_here';
    ```
@@ -50,9 +50,10 @@ This application uses NASA's Astronomy Picture of the Day (APOD) API:
 
 ## Security Notes
 
+- This repository uses NASA's `DEMO_KEY` for the live demo, which is safe for public use
+- For personal/local use, replace with your own API key from https://api.nasa.gov/
 - The `js/config.js` file is included in this repository for GitHub Pages deployment
-- For local development, you can use the template file (`js/config.template.js`) as a reference for setup
-- Never share your API key publicly in production environments
+- Never share your personal API key publicly in production environments
 
 ## Browser Compatibility
 
@@ -68,7 +69,7 @@ nasa-space-explorer/
 ├── index.html          # Main HTML file
 ├── style.css           # NASA-branded styling
 ├── js/
-│   ├── config.js       # API configuration (included for GitHub Pages)
+│   ├── config.js       # API configuration (uses DEMO_KEY for public demo)
 │   ├── config.template.js  # Template for API setup
 │   ├── dateRange.js    # Date picker functionality
 │   └── script.js       # Main application logic
