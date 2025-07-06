@@ -11,6 +11,10 @@ An interactive web application that allows users to explore NASA's Astronomy Pic
 - 🎨 NASA-branded design with professional styling
 - 📱 Responsive design for all devices
 
+## Live Demo
+
+🌐 **Live Demo**: [NASA Space Explorer on GitHub Pages](https://crawfordb2026.github.io/NASA-Website/)
+
 ## Setup Instructions
 
 ### 1. Get Your NASA API Key
@@ -46,9 +50,9 @@ This application uses NASA's Astronomy Picture of the Day (APOD) API:
 
 ## Security Notes
 
-- The `js/config.js` file is included in `.gitignore` to prevent API keys from being committed to version control
-- Always use the template file (`js/config.template.js`) as a reference for setup
-- Never share your API key publicly
+- The `js/config.js` file is included in this repository for GitHub Pages deployment
+- For local development, you can use the template file (`js/config.template.js`) as a reference for setup
+- Never share your API key publicly in production environments
 
 ## Browser Compatibility
 
@@ -64,7 +68,7 @@ nasa-space-explorer/
 ├── index.html          # Main HTML file
 ├── style.css           # NASA-branded styling
 ├── js/
-│   ├── config.js       # API configuration (not in version control)
+│   ├── config.js       # API configuration (included for GitHub Pages)
 │   ├── config.template.js  # Template for API setup
 │   ├── dateRange.js    # Date picker functionality
 │   └── script.js       # Main application logic
